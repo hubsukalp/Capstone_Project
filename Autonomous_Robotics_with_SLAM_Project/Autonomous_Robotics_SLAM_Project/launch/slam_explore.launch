@@ -1,6 +1,0 @@
-
-<launch>
-    <include file="$(find turtlebot3_gazebo)/launch/turtlebot3_world.launch"/>
-    <node name="slam_gmapping" pkg="gmapping" type="slam_gmapping" output="screen"/>
-    <node name="autonomous_explore" pkg="autonomous_robotics_slam" type="autonomous_explore.py" output="screen"/>
-</launch>
