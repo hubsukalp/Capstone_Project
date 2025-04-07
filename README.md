@@ -1,1 +1,1 @@
-It is an autonomous robotics slam project
+This project demonstrates the use of Simultaneous Localization and Mapping (SLAM) in an autonomous mobile robot simulation using TurtleBot3 in a custom Gazebo world. The goal is to enable a robot to explore an unknown environment, build a map, and localize itself within that map — a foundational problem in robotics.
